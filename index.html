@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Data</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: brown">
+        <legend style="background-color: blue"><h1>Personal Data</h1></legend>
+        <br />
+        <fieldset style="background-color: orange">
+          <legend
+            style="background-color: aquamarine; width: 100; height: 150px"
+          >
+            <br />
+            <br />
+            <h2>Your Name</h2>
+          </legend>
+          <br />
+          <br />
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="fname">First Name</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Mohamed"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="lname"
+                    name="lastname"
+                    placeholder="7ager"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tr>
+            <td><label for="phone">Your Phone </label></td>
+
+            <td><input type="tel" id="phone" name="phone number" /></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Email</label></td>
+            <td><input type="email" id="mail" name="user email" required /></td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td>
+              <input type="password" id="pass" name=" user password" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="rpass">Re-Password</label></td>
+            <td><input type="password" id="rpass" name=" re password" /></td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input type="radio" id="male" value="male" name="gender" />
+              </td>
+              <td><label for="male">Male</label></td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" id="female" value="female" name="gender" />
+              </td>
+              <td><label for="female">FeMale</label></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  id="std"
+                  value="student"
+                  name="student"
+                />
+              </td>
+              <td><label for="std">Student</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="checkbox"
+                  id="grd"
+                  value="Graduted"
+                  name="Graduted"
+                />
+              </td>
+              <td><label for="grd">Graduted</label></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <div>
+          <label for="cars">Choose your car</label>
+          <select name="cars" id="cars">
+            <optgroup label="Mercedes">
+              <option value="Mercedes CLA">Mercedes CLA</option>
+              <option value="Mercedes Benz">Mercedes Benz</option>
+            </optgroup>
+            <optgroup label="BMW">
+              <option value="BMW I7">BMW I7</option>
+              <option value="BMW X8">BMW X8</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <br />
+        <br />
+        <input
+          type="image"
+          name="submit"
+          id="sub"
+          src="img/submit.png"
+          style="width: 90px; border-radius: 70px"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
